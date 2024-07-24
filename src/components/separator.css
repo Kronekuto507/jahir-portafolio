@@ -1,0 +1,18 @@
+.separator{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.separator .linear-separator{
+    height: 5px;
+    width: 40%;
+    background-color: #8D493A;
+}
+
+.separator .circular-separator{
+    border-radius: 50%;
+    background-color: #8D493A;
+    width: 15px;
+    height: 15px;
+}

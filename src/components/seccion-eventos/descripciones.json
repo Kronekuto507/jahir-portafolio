@@ -1,0 +1,51 @@
+{
+    "descripcionesPlanes":[
+        {   "src":"../src/assets/gallery-images/1.jpg",
+            "alt":"seccion-alt",
+            "tipo":"Bronce",
+            "precio":"65$",
+            "descripcionLista":["12 Fotos editadas", "1 Cambio de vestuario", "1 Ubicacion a eleccion", "Fotos de prueba ilimitadas"]
+
+        },
+        {   "src":"../src/assets/planes/plata.jpg",
+            "alt":"seccion-alt",
+            "tipo":"Plata",
+            "precio":"95$",
+            "descripcionLista":["18 Fotos editadas", "2 Cambio de vestuario", "2 Ubicacion a eleccion", "Fotos de prueba ilimitadas"]
+        },
+        {   "src":"../src/assets/planes/plata.jpg",
+            "alt":"seccion-alt",
+            "tipo":"Oro",
+            "precio":"140$",
+            "descripcionLista":["26 Fotos editadas", "3 Cambio de vestuario", "2 Ubicacion a eleccion", "Fotos de prueba ilimitadas","Incluye estudio","Incluye max 3 personas añadidas"]
+        }
+    ],
+
+    "descripcionesEventos":[
+        {   "src":"../src/assets/planes/plata.jpg",
+            "alt":"seccion-alt",
+            "tipo":"Cumpleaños",
+            "precio":"200$",
+            "descripcionLista":["16 Fotos editadas", "Covertura de evento por dos horas", "Fotos ilimitadas"]
+
+        },
+        {   "src":"../src/assets/planes/plata.jpg",
+            "alt":"seccion-alt",
+            "tipo":"Premium",
+            "precio":"250$",
+            "descripcionLista":["30 Fotos editadas", "Covertura de evento por 4 horas", "Fotos ilimitadas"]
+        },
+        {   "src":"../src/assets/planes/plata.jpg",
+            "alt":"seccion-alt",
+            "tipo":"Vip",
+            "precio":"300$",
+            "descripcionLista":["35 Fotos editadas", "Covertura de evento por 5 horas", "Fotos ilimitadas"]
+        },
+        {   "src":"../src/assets/planes/plata.jpg",
+            "alt":"seccion-alt",
+            "tipo":"Deportivo",
+            "precio":"10$",
+            "descripcionLista":["5 Fotos editadas", "Con opcion a cambio de 2 fotos", "3$ por fotos editadas individuales"]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+.seccion-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.seccion-grid img{
+    height: 50vh;
+    margin: auto;
+}
+
+.seccion-grid .plan-seccion{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.2vw;
+}
+
+.plan-seccion li{
+    margin: 0.5rem;
+}
+
+.plan-seccion hr{
+    width: 92%;
+    border: 3px solid #C0C0C0;
+}
+
+@media(max-width:768px){
+    .seccion-grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seccion-grid img{
+        width: 100%;
+        height: 80%;
+    }
+
+    .seccion-grid .plan-seccion{
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .plan-seccion hr{
+        width: 100%;
+    }
+}
+

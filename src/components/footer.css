@@ -1,0 +1,39 @@
+.logo-and-socials{
+    background-color: #FFF;
+    display: flex;
+    padding: 5rem;
+    border-top: 3px solid #8D493A;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 15rem;
+    }
+
+    svg{
+        width: 5rem;
+        height: 5rem;
+        color: black;
+    }
+    svg:hover{
+        color: #512b22;;
+    }
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.footer h3{
+    font-family: 'Lato','sans-serif';
+    padding: 1rem;
+    background-color:#8D493A;
+    color: white;
+}
+
+.footer p{
+    font-family: 'Lato','sans-serif';
+    padding: 0.5rem;
+}

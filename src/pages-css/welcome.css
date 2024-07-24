@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.welcome-page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-page .name{
+    position: absolute;
+    top: 50%;
+    font-family: 'Lato','sans-serif';
+    font-size: xx-large;
+    color: white;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+.welcome-page .name:hover{
+    cursor: pointer;
+}
+
+.button-wrapper{
+    
+    display: flex;
+    gap: 3rem;
+    margin: 1rem;
+}
+
+.button-wrapper a{
+    text-decoration: none;
+    -webkit-text-stroke: 1.5px #000;
+    -webkit-text-fill-color: rgba(255, 255, 255, 1);
+    font-size: 2vw;
+}
+
+#photographer-name:after{
+    content: "";
+    animation: lliro-animation 1s linear;
+    animation-fill-mode: forwards;
+    -webkit-text-stroke: 2px #FFF;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+@keyframes lliro-animation{
+    0%{
+        content: "L";
+    }
+    25%{
+        content:"LL";
+    }
+    50%{
+        content: "LLI";
+    }
+    75%{
+        content: "LLIR";
+    }
+    100%{
+        content:"LLIRO";
+    }
+}
+
+@media (max-width: 1000px){
+    .button-wrapper a {
+        font-size: 5vw;
+    }
+}
+

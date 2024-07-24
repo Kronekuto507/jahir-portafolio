@@ -1,0 +1,16 @@
+{
+    "routes":[
+        {
+            "href":"/contact",
+            "name": "Contacto"
+        },
+        {
+            "href":"/planes",
+            "name": "Planes"
+        },
+        {
+            "href":"/portfolio",
+            "name": "Portafolio"
+        }
+    ]
+}
