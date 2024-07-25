@@ -4,7 +4,7 @@ import "./nav.css"
 function Nav(){
     return (
         <nav className="nav">
-            <img src="../src/assets/logos/nav-logo.png" alt="logo" />
+            <img src="/assets/logos/nav-logo.png" alt="logo" />
             <ul>
                 <li>
                     <Link to={"/"}><h3>BIENVENIDA</h3></Link>

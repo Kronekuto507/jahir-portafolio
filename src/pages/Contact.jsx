@@ -7,7 +7,7 @@ function Contact(){
     return (
         <div>
             <Nav />
-            <Landing src={'../src/assets/jahir/jahir-contact.jpg'} textToAppear={'CONTACTO'} xPosition={'center'} yPosition={'54%'}/>
+            <Landing src={'/assets/jahir/jahir-contact.jpg'} textToAppear={'CONTACTO'} xPosition={'center'} yPosition={'54%'}/>
             <div className="container">
                 <ContactForm />
             </div>

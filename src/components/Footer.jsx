@@ -8,7 +8,7 @@ function Footer(){
     return (
         <footer className="footer">
             <div className="logo-and-socials">
-                <img src="../src/assets/logos/nav-logo.png" alt="logo"></img>
+                <img src="/assets/logos/nav-logo.png" alt="logo"></img>
                 <div className="socials">
                     <Link to={'https://www.instagram.com/_lliro_/'}><FontAwesomeIcon icon={faInstagram} /></Link>
                     <Link to={'https://www.facebook.com/jahir.sanchez.370'}><FontAwesomeIcon icon={faFacebook} /></Link>

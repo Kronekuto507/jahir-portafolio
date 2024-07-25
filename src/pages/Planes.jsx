@@ -11,7 +11,7 @@ function Planes(){
     return (
         <div>
             <Nav />
-            <Landing src={'../src/assets/planes.jpg'} textToAppear={'PLANES'} xPosition={'center'} yPosition={'20%'}/>
+            <Landing src={'/assets/planes.jpg'} textToAppear={'PLANES'} xPosition={'center'} yPosition={'20%'}/>
             <div className="container">
                 <Separator />
                 <SeccionGrid lista={descripcionPlanes.descripcionesPlanes} />

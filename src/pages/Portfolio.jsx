@@ -10,7 +10,7 @@ function Portfolio(){
     return (
         <div>
             <Nav />
-            <Landing textToAppear={"PORTAFOLIO"} src={"../src/assets/portafolio.jpg"} xPosition={"center"} yPosition={"20%"}/>
+            <Landing textToAppear={"PORTAFOLIO"} src={"/assets/portafolio.jpg"} xPosition={"center"} yPosition={"20%"}/>
             <div className="container">
                 <div className="intro">
                     <h1>PORTAFOLIO</h1> <br></br>
