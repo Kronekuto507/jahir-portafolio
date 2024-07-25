@@ -39,7 +39,7 @@ function ContactForm(){
 
     return(
         <div className="wrapper">
-            <h1>CONTACTAME</h1>
+            <h1>CONTÁCTAME</h1>
             <form>
                 <div className="nombre">
                 <label htmlFor="firstName">
